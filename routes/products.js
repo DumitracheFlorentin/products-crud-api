@@ -1,6 +1,5 @@
-const { parse } = require("dotenv");
-const express = require("express");
-const productsData = require("../data/products");
+import express from "express";
+import productsData from "../data/products.js";
 
 const router = express.Router();
 
@@ -124,4 +123,4 @@ router.post("/", (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;
