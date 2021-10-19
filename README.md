@@ -26,7 +26,7 @@ npm install
 ### Run The Application
 
 ```
-npm server
+npm run server
 ```
 
 ## How to check results
